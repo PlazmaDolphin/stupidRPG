@@ -1,0 +1,23 @@
+{
+    "name": "Imp",
+    "maxhp": 60,
+    "pow": 70,
+    "def": 50,
+    "xp": 65,
+    "monies": 8,
+    "level": 3,
+    "attacks": [
+        {
+            "name": "Goop",
+            "pow": 20,
+            "acc": 100,
+            "type": "normal"
+        },
+        {
+            "name": "Bite",
+            "pow": 30,
+            "acc": 80,
+            "type": "normal"
+        }
+    ]
+}

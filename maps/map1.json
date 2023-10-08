@@ -1,0 +1,41 @@
+{
+    "objs" : [
+        {
+            "type" : "treasure",
+            "held" : "key",
+            "open" : false
+        },
+        {
+            "type" : "sign",
+            "text" : "Use WASD to move, and enter to interact with objects. You control the < at the top."
+        },
+        {
+            "type" : "monster",
+            "species" : "imp",
+            "dead" : false
+        },
+        {
+            "type" : "npc",
+            "text" : "You should probably heal up at an S block before you try to fight that imp."
+        },
+        {
+            "type" : "door",
+            "open" : false
+        },
+        {
+            "type" : "treasure",
+            "held" : "sword",
+            "open" : false
+        }
+    ],
+    "exits" : [
+        null,
+        null,
+        null,
+        {
+            "map" : "map2",
+            "x" : 4,
+            "y" : 1
+        }
+    ]
+}

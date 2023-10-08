@@ -1,0 +1,29 @@
+Space = Empty
+. = Short Grass
+: = Tall Grass
+* = Forest
+~ = Water
+S = Save Block (restores health)
+# = Wall
+
+Tiles Specified in map's json:
+^<>v = Up, Left, Right, Down Loading Zones (in that order)
+0-9 = Interactable Objects, can be tagged and displayed as:
+T=Treasure
+I=Sign (Info)
+P=NPC
+M=Monster
+D=Locked Door (disappears when opened)
+
+Up -> Down
+Left -> Right
+Right -> Left
+Down -> Up
+
+0 - Treasure (Key)
+1 - Sign
+2 - Monster (Imp)
+3 - NPC (Mom)
+4 - Locked Door
+5 - Treasure (Sword)
+v - To Win Screen

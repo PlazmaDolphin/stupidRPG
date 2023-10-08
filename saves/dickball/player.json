@@ -1,0 +1,1 @@
+{"name": "dickball", "maxhp": 70, "xp": 100, "monies": 0, "pow": 70, "def": 70, "level": 5, "weapon": {"name": "Fists", "pow": 25, "acc": 100}, "new": true, "coords": {"map": "map1", "x": 6, "y": 1, "facing": 2}}

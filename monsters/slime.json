@@ -1,0 +1,29 @@
+{
+    "name": "Slime",
+    "maxhp": 50,
+    "pow": 50,
+    "def": 40,
+    "xp": 50,
+    "monies": 5,
+    "level": 2,
+    "attacks": [
+        {
+            "name": "Slime Attack",
+            "pow": 20,
+            "acc": 100,
+            "type": "normal"
+        },
+        {
+            "name": "Goop",
+            "pow": 30,
+            "acc": 100,
+            "type": "normal"
+        },
+        {
+            "name": "Bite",
+            "pow": 40,
+            "acc": 80,
+            "type": "normal"
+        }
+    ]
+}

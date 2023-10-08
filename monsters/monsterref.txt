@@ -1,0 +1,16 @@
+Monster stats will now be represented by base values.
+Instances of the monster must be specified with a level.
+Otherwise, the monster will be level 50.
+Low bases: ~40
+High bases: ~100
+Legendary bases: ~120
+Average bases: ~70
+Average legendary bases: ~105
+
+Experience bases:
+Low: ~60
+Medium: ~150
+High: ~220
+
+Monie bases:
+???? (I have no idea what the economy is like, so I can't really say.)
