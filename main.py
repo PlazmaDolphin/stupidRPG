@@ -22,19 +22,19 @@ Save System [X]
 MOVEMENT = ['w', 'd', 'a', 's']
 name = saveselect()
 save = Save(name)
-temp = Save("", True) #TODO: load from pre-existing temp
+temp = Save("", True)  # TODO: load from pre-existing temp
 brian = Player(name, save.loadfile("player.json"))
 start = None
 save.copy(temp)
 if save.isnew():
     print("New game, yadda yadda fill in later")
     data = save.loadfile("player.json")
-    data["name"] = name #make the name what the player chose
+    data["name"] = name  # make the name what the player chose
     save.savefile("player.json", data)
     with open("monsters/slime.json", "r") as file:
         slime = Enemy(json.load(file), 3)
     Fight(brian, slime)
-    start = map.Map('map1', 6, 1 , map.WEST)
+    start = map.Map('map1', 6, 1, map.WEST)
 else:
     coords = save.loadfile("player.json")["coords"]
     start = map.Map(coords["map"], coords["x"], coords["y"], coords["facing"])
